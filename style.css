@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+
+.textarea-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: 48%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.buttons-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
+
+button.copy-btn {
+    margin-left: 0;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Media Query for tablets and phones */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .textarea-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    textarea {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .buttons-container {
+        flex-direction: column;
+    }
+
+    .buttons-left, .copy-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .copy-btn {
+        margin-top: 10px;
+    }
+}
+
+.textinput
+{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+}
+.textoutput
+{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+}
+.titule
+{
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+}
+.button1
+{
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+.button2
+{
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
